@@ -20,6 +20,10 @@ define(function (require) {
             feeds["senior-year"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=5&format=raw';
             feeds["support"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=6&format=raw';
             feeds["activities"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw';
+            feeds["campus-facilities"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=8&format=raw';
+            feeds["enrolment"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=9&format=raw';
+            feeds["parents"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=10&format=raw';
+            feeds["students"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=11&format=raw';
    
             return feeds[Backbone.history.fragment];
 

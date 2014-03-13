@@ -40,6 +40,14 @@ define(function (require) {
             "support-item/:id": "getGenericItem",  
             "activities": "getGeneric",
             "activities-item/:id": "getGenericItem",  
+            "campus-facilities": "getGeneric",
+            "campus-facilities-item/:id": "getGenericItem",  
+            "enrolment": "getGeneric",
+            "enrolment-item/:id": "getGenericItem",  
+            "parents": "getGeneric",
+            "parents-item/:id": "getGenericItem",  
+            "students": "getGeneric",
+            "students-item/:id": "getGenericItem",  
             
             /*****All generic model routes (i.e. just one item in the feed)******/
 
