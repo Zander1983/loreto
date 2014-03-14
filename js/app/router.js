@@ -598,6 +598,11 @@ define(function (require) {
 
                             flickr_user_id = data.get('flickr_user_id');
                             flickr_api_key = data.get('flickr_api_key');
+                            
+                            console.log('flickr_api_key is ');
+                            console.log(flickr_api_key);
+                            console.log('flickr_user_id is ');
+                            console.log(flickr_user_id);
                        
                             albums = new model.AlbumCollection({flickr_api_key:flickr_api_key, flickr_user_id:flickr_user_id});
 
