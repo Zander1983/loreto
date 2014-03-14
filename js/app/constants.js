@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-    var project_title = "loretokk", 
+    var project_title = "loreto", 
         project_number = "556444490578", 
         push_server_url = "http://push.schoolspace.ie", 
         feed_domain = "http://www.loretokk.ie", 
