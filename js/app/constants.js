@@ -13,7 +13,7 @@
         school_name = "Loreto Secondary School",
         gmail = "kilkennyschool@gmail.com",
         in_browser = false,
-        is_emulator = false,
+        is_emulator = true,
         is_push = false;  
   
     /********device id and api key for browser testing*********/
